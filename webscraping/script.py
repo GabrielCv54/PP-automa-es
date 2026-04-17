@@ -200,15 +200,15 @@ def search_specific_product():
     time.sleep(2)
     pya.click()
     time.sleep(2)
+    pya.hotkey('ctrl','c')
+    time.sleep(2)
     driver_url = pyp.paste()
     print(driver_url)
     time.sleep(2)
     driver.get(driver_url)
-    div_products = driver.find_element(By.CLASS_NAME,'a-section a-spacing-small puis-padding-left-small puis-padding-right-small')
+    div_products = driver.find_element(By.CLASS_NAME,'puis-padding-right-small')
     list_products_search.append(div_products.text)
-    for prod in list_products_search[:10]:
-        print(prod)
-    print(list_products_search)
+    logger.success(div_products.text)
 
 def main():
     while True:
