@@ -1,9 +1,14 @@
-[{
-    "nome": "it a coisa ",
-    "preco": 190.45,
-    "img": "https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788560280940/it-a-coisa.jpg"
-}],{
-    "nome": "switch",
-    "preco": 3200.0,
-    "img": "https://m.media-amazon.com/images/I/51YXZgm0DbL.jpg"
+{
+    "livro de enoque": {
+        "preco": 52.4,
+        "img": "https://m.media-amazon.com/images/I/61Jux50srZL._AC_UF1000,1000_QL80_.jpg"
+    },
+    "vassoura tipo de pêlo 40cm": {
+        "preco": 32.0,
+        "img": "https://assets-ventmar.egondola.app/v1/pro_7652_e.jpg"
+    },
+    "computador dell 24": {
+        "preco": 5999.0,
+        "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/dell/ec24250/media-gallery/white/touch/dell-ec24250t-aio-gy-mldspk-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=320&wid=431&qlt=100,1&resMode=sharp2&size=431,320&chrss=full"
+    }
 }
